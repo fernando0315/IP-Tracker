@@ -18,10 +18,10 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="IPInput"/>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="trackIPButton">
         <property name="text">
          <string>track IP address</string>
         </property>
@@ -32,14 +32,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="IPLabel">
         <property name="text">
          <string>IP Address: </string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_6">
+       <widget class="QLabel" name="IPRespLabel">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -56,14 +56,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="hostLabel">
         <property name="text">
          <string>Hostname:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_7">
+       <widget class="QLabel" name="hostRespLabel">
         <property name="text">
          <string>TextLabel</string>
         </property>
@@ -74,14 +74,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_4">
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="ISPLabel">
         <property name="text">
          <string>ISP:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_8">
+       <widget class="QLabel" name="ISPRespLabel">
         <property name="text">
          <string>TextLabel</string>
         </property>
@@ -92,14 +92,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_5">
       <item>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="countryLabel">
         <property name="text">
          <string>Country:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_9">
+       <widget class="QLabel" name="countryRespLabel">
         <property name="text">
          <string>TextLabel</string>
         </property>
@@ -110,14 +110,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_6">
       <item>
-       <widget class="QLabel" name="label_5">
+       <widget class="QLabel" name="emailLabelResp">
         <property name="text">
          <string>Email:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_10">
+       <widget class="QLabel" name="emailLabel">
         <property name="text">
          <string>TextLabel</string>
         </property>
