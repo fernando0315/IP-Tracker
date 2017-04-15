@@ -58,7 +58,7 @@
       <item>
        <widget class="QLabel" name="hostLabel">
         <property name="text">
-         <string>Hostname:</string>
+         <string>Country:</string>
         </property>
        </widget>
       </item>
@@ -76,7 +76,7 @@
       <item>
        <widget class="QLabel" name="ISPLabel">
         <property name="text">
-         <string>ISP:</string>
+         <string>City:</string>
         </property>
        </widget>
       </item>
@@ -94,7 +94,7 @@
       <item>
        <widget class="QLabel" name="countryLabel">
         <property name="text">
-         <string>Country:</string>
+         <string>Latitude:</string>
         </property>
        </widget>
       </item>
@@ -110,14 +110,14 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_6">
       <item>
-       <widget class="QLabel" name="emailLabelResp">
+       <widget class="QLabel" name="emailLabel">
         <property name="text">
-         <string>Email:</string>
+         <string>Longitude:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="emailLabel">
+       <widget class="QLabel" name="emailRespLabel">
         <property name="text">
          <string>TextLabel</string>
         </property>
